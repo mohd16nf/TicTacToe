@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(54, 53, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.winner-msg{
+ font-size: 25px;
+ color: orangered;
+ font: bolder;
+ margin: 20px 0px 40px 0px;
+ 
+}
+
+.hide{
+    display: none;
+}
+
+h1{
+    color: orangered;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 400px;
+    height: 400px;
+    color: white;
+    gap: 1.5vmin;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10%;
+    font-size: 35px;
+}
+
+.box:hover {
+    background-color: #e82525;
+}
+
+.btn-div{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 2vmin;
+}
+
+.resetBtn{
+    background-color: orangered;
+    color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 10px;
+    height: 35px;
+    width: 140px;
+}
+
+.newGameBtn{
+    background-color: orangered;
+    color: black;
+    border: none;
+    font-weight:  bold;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 10px;
+    height: 35px;
+    width: 140px;
+}
+
+
+.resetBtn:hover{
+    background-color: black;
+    color: orangered;
+}
+
+.newGameBtn:hover{
+    background-color: black;
+    color: orangered;
+}
